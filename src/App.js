@@ -6,6 +6,7 @@ import Header from "./component/header/header-component";
 import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import { auth, createUserProfileDocument } from "./firesbase/firebase.utils";
 import React from "react";
+
 class App extends React.Component {
 	constructor() {
 		super();
